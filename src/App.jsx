@@ -1,16 +1,14 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Map from "../components/Map"
+import Map from "./components/Map"
+import MapBuilder from "./components/MapBuilder"
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        {/* <Map></Map> */}
+      <div className='h-full'>
+        <MapBuilder></MapBuilder>
       </div>
     </>
   )
